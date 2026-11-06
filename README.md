@@ -4,18 +4,18 @@
 [![Models: CLIP | CoOp](https://img.shields.io/badge/Models-CLIP%20%7C%20CoOp-0055FF.svg)](#methodology--architectures)
 [![HPC: CINECA Leonardo](https://img.shields.io/badge/HPC-CINECA%20Leonardo%20(NVIDIA%20A100)-792EE5.svg)](#software-stack--hpc-infrastructure)
 [![Datasets: Caltech101 | EuroSAT](https://img.shields.io/badge/Datasets-Caltech101%20%7C%20EuroSAT-green.svg)](#datasets--evaluation-protocols)
-[![Report: PDF](https://img.shields.io/badge/Report-PDF%20(ITA)-red.svg)](./docs/Un_Confronto_tra_CLIP_e_CLIP_CoOp.pdf)
+[![Report: PDF](https://img.shields.io/badge/Report-PDF%20(ITA)-red.svg)](./docs/Un_Confronto_tra_CLIP_e_CLIP_CoOp_.pdf)
 
 Experimental benchmarking and empirical analysis comparing Zero-Shot CLIP with continuous prompt learning via Context Optimization (CoOp). The project investigates classification accuracy, few-shot scaling (1, 2, 4, 8, 16 shots), token positioning (middle vs. end), cosine similarity alignment, and representation miscalibration under severe distribution shifts.
 
 Conducted as part of the Computer Vision & Deep Learning course — M.Sc. in Computer and Automation Engineering at Università Politecnica delle Marche (UNIVPM), Academic Year 2024/2025.
 
 > Official Project Deliverables:
-> * Technical Project Report (PDF, Italian): [Un_Confronto_tra_CLIP_e_CLIP_CoOp.pdf](./docs/Un_Confronto_tra_CLIP_e_CLIP_CoOp.pdf)
-> * Reference Literature: [Learning to Prompt for Vision-Language Models (Zhou et al., IJCV 2022)](./docs/Learning_to_Prompt_for_VLM.pdf)
+> * Technical Project Report (PDF, Italian): [Un_Confronto_tra_CLIP_e_CLIP_CoOp.pdf](./docs/Un_Confronto_tra_CLIP_e_CLIP_CoOp_.pdf)
+> * Reference Literature: [Learning to Prompt for Vision-Language Models (Zhou et al., IJCV 2022)](./docs/Learning_to_Prompt_for_Vision-Language_Models.pdf)
 > * Execution Logs Archive: [logs/RISULTATI.zip](./logs/RISULTATI.zip)
 > * HPC Cluster Hardware Specs: [logs/hardware.PNG](./logs/hardware.PNG)
-> * Slurm Submission & Config Scripts: [scripts/](./scripts/) and [configs/](./configs/)
+> * Slurm Submission & Config Scripts: [scripts/](./scripts/) and [config/](./config/)
 
 ---
 
